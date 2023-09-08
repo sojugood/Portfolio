@@ -213,18 +213,3 @@
   align-items: center;
 }
 
-.not-provided {
-  display: none;
-}
-
-@media (max-width: 500px) {
-  .navbar,
-  main,
-  section,
-  .footer {
-    display: none !important;
-  }
-  .not-provided {
-    display: block;
-  }
-}
